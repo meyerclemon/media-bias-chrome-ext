@@ -1,0 +1,29 @@
+{
+    "name": "Media Bias Extension",
+    "version": "1.0",
+    "description": "Know your sources!",
+    "manifest_version": 2,
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["jquery-3.4.1.min.js", "background.js"]
+      }
+    ],
+  
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "images/target.png"
+  
+      },
+      "default_title": "Media Bias Key"
+    },
+    "background": {
+      "scripts": ["contextMenu/eventPage.js", "background.js"],
+      "persistent": false
+    },
+  
+    "permissions": ["activeTab", "declarativeContent", "storage", "contextMenus", "<all_urls>"]
+  }
+  
