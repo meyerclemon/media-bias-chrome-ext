@@ -2,8 +2,8 @@
 By Maya Frame - July 2019
 
 ## Description
-Empowers the user to make informed choices about their media consumption. Color-coded links depict the general political bias and factual accuracy of an online news source according to Media Bias Chart 4.0.
-Right-clinking link generates a context menu with more information about the source's axis placement on the Media Bias Chart.
+Empowers the user to make informed choices about their media consumption. Color-coded links depict the general political bias and factual accuracy of an online news source according to ![AdFontes Media Bias Chart](https://www.adfontesmedia.com/?v=402f03a963ba).
+Mousing over the link generates a context menu with more information about the source's axis placement on the Media Bias Chart.
 ![Media Bias Chart 4.0](/images/Media-Bias-Chart_4.0.jpg)
 
 ## Known Issues
@@ -15,8 +15,7 @@ Currently, sources are hard-coded into background file, as is the context menu h
 2. Search DOM for string matches 
 3. Create color components for certain string matches
 4. Create popup color key on chart background when icon is clicked
-5. Create context menu item for more info
-6. Make popup a clickable link to website
+5. Create mouseover context menu item for more info
 
 ## Setup and Use
 From your command line:
