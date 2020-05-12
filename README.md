@@ -2,7 +2,7 @@
 By Maya Frame - July 2019
 
 ## Description
-Empowers the user to make informed choices about their media consumption. Color-coded links depict the general political bias and factual accuracy of an online news source according to ![AdFontes Media Bias Chart](https://www.adfontesmedia.com/?v=402f03a963ba).
+Empowers the user to make informed choices about their media consumption. Color-coded links depict the general political bias and factual accuracy of an online news source according to [AdFontes Media Bias Chart](https://www.adfontesmedia.com/?v=402f03a963ba).
 Mousing over the link generates a context menu with more information about the source's axis placement on the Media Bias Chart.
 ![Media Bias Chart 4.0](/images/Media-Bias-Chart_4.0.jpg)
 
